@@ -2,9 +2,8 @@
 pragma solidity 0.8.10;
 //uses UUPS for the proxy
 
-import "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeableOptimized.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 import "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol";
 
@@ -12,7 +11,7 @@ import "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol";
 /// @author Brean
 /// @notice Mints NFTs, where rarity is based on time bought and size
 /// @dev Based on Upgradable ERC721Enum with optimizations, uses merkle root to determine tokenIDs
-contract MyERC721Upgradeable is Initializable, ERC721EnumerableUpgradeable, OwnableUpgradeable,UUPSUpgradeable{
+contract MyERC721Upgradeable is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable,UUPSUpgradeable{
   bytes32 public root;
   string private _baseTokenURI;
 
