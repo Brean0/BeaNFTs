@@ -1,7 +1,7 @@
 const { ethers,upgrades } = require("hardhat");
 
 async function main() {
-    const ERC721 = await ethers.getContractFactory("MyERC721UpgradeableOptimized");
+    const ERC721 = await ethers.getContractFactory("MyERC721Upgradeable");
 
     const erc721 = await upgrades.deployProxy(ERC721, {
         initializer: "initialize"

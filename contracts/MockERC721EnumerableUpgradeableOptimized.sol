@@ -11,7 +11,7 @@ import "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol";
 /// @author Brean
 /// @notice Mints NFTs, where rarity is based on time bought and size
 /// @dev Based on Upgradable ERC721Enum with optimizations, uses merkle root to determine tokenIDs
-contract MyERC721Upgradeable is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable,UUPSUpgradeable{
+contract MyERC721UpgradeableOptimized is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable,UUPSUpgradeable{
   bytes32 public root;
   string private _baseTokenURI;
 
@@ -45,46 +45,27 @@ contract MyERC721Upgradeable is Initializable, ERC721EnumerableUpgradeableOptimi
         return _exists(tokenId);
     }
 
-    function mint(address to, uint256 tokenId) public {
-        _mint(to, tokenId);
-    }
-
-    function safeMint(address to, uint256 tokenId) public {
-        _safeMint(to, tokenId);
-    }
-
-    function safeMint(
-        address to,
-        uint256 tokenId,
-        bytes memory _data
-    ) public {
-        _safeMint(to, tokenId, _data);
-    }
-
     function burn(uint256 tokenId) public {
         _burn(tokenId);
     }
 
-    function batchMint(address to, uint256[] calldata tokenId,bytes32[] calldata merkle) public{
-      require(checkValidity(tokenId, merkle));
-      for(uint256 i; i <  tokenId.length;++i){
-        _mint(to,tokenId[i]);
-      }
-    }
 
     function _safeBatchMint(address to, uint256[] memory tokenId) internal {
       for(uint256 i; i <  tokenId.length;++i){
           _safeMint(to,tokenId[i]);
         }
     }
-
-    function mintBeaNFT(uint256[] calldata TokenID, bytes32[] calldata merkleProof) public{
-      checkValidity(TokenID,merkleProof);
+    
+    /// @dev concatinates the tokenID array with address, and verifies that the user is whitelited for those mints
+    // note this forces the user to mint all
+    
+    function mintAllBeaNFT(uint256[] calldata TokenID, bytes32[] calldata merkleProof) public{
+      require(checkValidity(TokenID,merkleProof), "Token ID array does not match");
       if (TokenID.length == 1){
         _safeMint(msg.sender,TokenID[0]);
       }
       else{
-        _safeBatchMint(msg.sender,TokenID);
+        _batchMint(msg.sender,TokenID);
       } 
     }
 
