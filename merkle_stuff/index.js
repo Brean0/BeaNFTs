@@ -39,10 +39,10 @@ let rootHash = merkleTree.getRoot().toString('hex')
 console.log(merkleTree.toString())
 
 // 'Serverside' code
-let hashedAddress = ethers.utils.solidityKeccak256(Object.keys(addresses[5]),Object.values(addresses[5]))
+let hashedAddress = ethers.utils.solidityKeccak256(Object.keys(addresses[4]),Object.values(addresses[4]))
 let proof = merkleTree.getHexProof(hashedAddress)
 console.log(proof)
 
 // Check proof
 let v = merkleTree.verify(proof, hashedAddress, rootHash)
-console.log(v) // returns true
+console.log(v) // 
