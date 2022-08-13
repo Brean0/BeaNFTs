@@ -5,13 +5,13 @@ pragma solidity 0.8.10;
 import "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeableOptimized.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
-import "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol";
+//import "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol";
 
 /// @title Barn Raise BeaNFT - opimized for farmers
 /// @author Brean
 /// @notice Mints NFTs, where rarity is based on time bought and size
 /// @dev Based on Upgradable ERC721Enum with optimizations, uses merkle root to determine tokenIDs
-contract MyERC721UpgradeableOptimized is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable,UUPSUpgradeable{
+contract MyERC721UpgradeableOptimized is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable { // removed UUPS, may should look back later on that
   bytes32 public root;
   string private _baseTokenURI;
 
@@ -27,7 +27,7 @@ contract MyERC721UpgradeableOptimized is Initializable, ERC721EnumerableUpgradea
     root = _root;
   }
 
-  function _authorizeUpgrade(address) internal override onlyOwner {}
+ // function _authorizeUpgrade(address) internal override onlyOwner {} <- function for UUPS, look into it later
 
   function _baseURI() internal view virtual override returns (string memory) {
         return _baseTokenURI;
@@ -62,10 +62,10 @@ contract MyERC721UpgradeableOptimized is Initializable, ERC721EnumerableUpgradea
     function mintAllBeaNFT(uint256[] calldata TokenID, bytes32[] calldata merkleProof) public{
       require(checkValidity(TokenID,merkleProof), "Token ID array does not match");
       if (TokenID.length == 1){
-        _safeMint(msg.sender,TokenID[0]);
+        _safeMint(_msgSender(),TokenID[0]);
       }
       else{
-        _batchMint(msg.sender,TokenID);
+        _batchMint(_msgSender(),TokenID);
       } 
     }
 
@@ -79,7 +79,7 @@ contract MyERC721UpgradeableOptimized is Initializable, ERC721EnumerableUpgradea
 
   //verify merkle
   function checkValidity(uint256[] calldata _tokenID,bytes32[] calldata _merkleProof) public view returns (bool){
-        bytes32 leaf = keccak256(abi.encodePacked(msg.sender,_tokenID));
+        bytes32 leaf = keccak256(abi.encodePacked(_msgSender(),_tokenID));
         require(MerkleProof.verify(_merkleProof, root, leaf), "Incorrect proof");
         return true; // Or you can mint tokens here
     }
