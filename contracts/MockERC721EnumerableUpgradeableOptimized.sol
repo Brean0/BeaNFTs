@@ -5,13 +5,13 @@ pragma solidity 0.8.10;
 import "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeableOptimized.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
-import "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol";
+//import "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol";
 
 /// @title Barn Raise BeaNFT - opimized for farmers
 /// @author Brean
 /// @notice Mints NFTs, where rarity is based on time bought and size
 /// @dev Based on Upgradable ERC721Enum with optimizations, uses merkle root to determine tokenIDs
-contract MyERC721Upgradeable is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable,UUPSUpgradeable{
+contract MyERC721UpgradeableOptimized is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable { // removed UUPS, may should look back later on that
   bytes32 public root;
   string private _baseTokenURI;
 
@@ -27,7 +27,7 @@ contract MyERC721Upgradeable is Initializable, ERC721EnumerableUpgradeableOptimi
     root = _root;
   }
 
-  function _authorizeUpgrade(address) internal override onlyOwner {}
+ // function _authorizeUpgrade(address) internal override onlyOwner {} <- function for UUPS, look into it later
 
   function _baseURI() internal view virtual override returns (string memory) {
         return _baseTokenURI;
@@ -45,46 +45,27 @@ contract MyERC721Upgradeable is Initializable, ERC721EnumerableUpgradeableOptimi
         return _exists(tokenId);
     }
 
-    function mint(address to, uint256 tokenId) public {
-        _mint(to, tokenId);
-    }
-
-    function safeMint(address to, uint256 tokenId) public {
-        _safeMint(to, tokenId);
-    }
-
-    function safeMint(
-        address to,
-        uint256 tokenId,
-        bytes memory _data
-    ) public {
-        _safeMint(to, tokenId, _data);
-    }
-
     function burn(uint256 tokenId) public {
         _burn(tokenId);
     }
 
-    function batchMint(address to, uint256[] calldata tokenId,bytes32[] calldata merkle) public{
-      require(checkValidity(tokenId, merkle));
-      for(uint256 i; i <  tokenId.length;++i){
-        _mint(to,tokenId[i]);
-      }
-    }
 
     function _safeBatchMint(address to, uint256[] memory tokenId) internal {
       for(uint256 i; i <  tokenId.length;++i){
           _safeMint(to,tokenId[i]);
         }
     }
-
-    function mintBeaNFT(uint256[] calldata TokenID, bytes32[] calldata merkleProof) public{
-      checkValidity(TokenID,merkleProof);
+    
+    /// @dev concatinates the tokenID array with address, and verifies that the user is whitelited for those mints
+    // note this forces the user to mint all
+    
+    function mintAllBeaNFT(uint256[] calldata TokenID, bytes32[] calldata merkleProof) public{
+      require(checkValidity(TokenID,merkleProof), "Token ID array does not match");
       if (TokenID.length == 1){
-        _safeMint(msg.sender,TokenID[0]);
+        _safeMint(_msgSender(),TokenID[0]);
       }
       else{
-        _safeBatchMint(msg.sender,TokenID);
+        _batchMint(_msgSender(),TokenID);
       } 
     }
 
@@ -98,7 +79,7 @@ contract MyERC721Upgradeable is Initializable, ERC721EnumerableUpgradeableOptimi
 
   //verify merkle
   function checkValidity(uint256[] calldata _tokenID,bytes32[] calldata _merkleProof) public view returns (bool){
-        bytes32 leaf = keccak256(abi.encodePacked(msg.sender,_tokenID));
+        bytes32 leaf = keccak256(abi.encodePacked(_msgSender(),_tokenID));
         require(MerkleProof.verify(_merkleProof, root, leaf), "Incorrect proof");
         return true; // Or you can mint tokens here
     }
