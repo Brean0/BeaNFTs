@@ -1,0 +1,65 @@
+{
+  "compiler": {
+    "version": "0.8.10+commit.fc410830"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "name": "targetContracts",
+        "outputs": [
+          {
+            "internalType": "address[]",
+            "name": "",
+            "type": "address[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "test/utils/DSInvariantTest.sol": "DSInvariantTest"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [
+      ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/",
+      ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/",
+      ":ds-test/=lib/solmate/lib/ds-test/src/",
+      ":forge-std/=lib/forge-std/src/",
+      ":solmate/=lib/solmate/src/"
+    ]
+  },
+  "sources": {
+    "test/utils/DSInvariantTest.sol": {
+      "keccak256": "0x338c9d6414eda968726adce15abd60cb147de49cf916bac479fee73a0aebd1df",
+      "license": "AGPL-3.0-only",
+      "urls": [
+        "bzz-raw://3925cea26240e01db8c7ac70179d29ef710052d019db34b2faa18099ab80b58b",
+        "dweb:/ipfs/QmTGEGx2XnozANe8KhxjdUP7rUX6vYZ8gpiHRm8p377tiY"
+      ]
+    }
+  },
+  "version": 1
+}
