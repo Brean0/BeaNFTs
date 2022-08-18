@@ -28,7 +28,7 @@ forge snapshot
 ### Optimizations
 As with all contracts, minimizing gas is a priority for developers. Beanstalk uses a merkle tree to determine whether a user is eglible for a mint, in a gas efficent method. Futher gas optimizations were made on Openzeppelins ERC721Enumerable.sol. The gas savings, especially on bulk mints, can be seen here: 
 
-![My Image](gas_compare.png)
+![My Image](Gas_Compare.png)
 
 ### More Comparasions
 
