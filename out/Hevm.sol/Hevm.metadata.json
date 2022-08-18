@@ -1,0 +1,577 @@
+{
+  "compiler": {
+    "version": "0.8.10+commit.fc410830"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "accesses",
+        "outputs": [
+          {
+            "internalType": "bytes32[]",
+            "name": "reads",
+            "type": "bytes32[]"
+          },
+          {
+            "internalType": "bytes32[]",
+            "name": "writes",
+            "type": "bytes32[]"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "addr",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "name": "assume",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "clearMockedCalls",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "deal",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "name": "etch",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "name": "expectCall",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "name": "expectEmit",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "bytes4",
+            "name": "",
+            "type": "bytes4"
+          }
+        ],
+        "name": "expectRevert",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "name": "expectRevert",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "fee",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string[]",
+            "name": "",
+            "type": "string[]"
+          }
+        ],
+        "name": "ffi",
+        "outputs": [
+          {
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "name": "getCode",
+        "outputs": [
+          {
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "addr",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "label",
+            "type": "string"
+          }
+        ],
+        "name": "label",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "name": "load",
+        "outputs": [
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "",
+            "type": "bytes"
+          }
+        ],
+        "name": "mockCall",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "prank",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "prank",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "record",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "roll",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "name": "sign",
+        "outputs": [
+          {
+            "internalType": "uint8",
+            "name": "",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "startPrank",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "startPrank",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "stopPrank",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "name": "store",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "warp",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {
+        "accesses(address)": {
+          "notice": "Gets all accessed reads and write slots from a recording session, for a given address."
+        },
+        "addr(uint256)": {
+          "notice": "Gets address for a given private key."
+        },
+        "assume(bool)": {
+          "notice": "When fuzzing, generate new inputs if the input conditional is not met."
+        },
+        "clearMockedCalls()": {
+          "notice": "Clears all mocked calls."
+        },
+        "deal(address,uint256)": {
+          "notice": "Sets an address' balance."
+        },
+        "etch(address,bytes)": {
+          "notice": "Sets an address' code."
+        },
+        "expectCall(address,bytes)": {
+          "notice": "Expect a call to an address with the specified calldata.Calldata can either be strict or a partial match."
+        },
+        "expectEmit(bool,bool,bool,bool)": {
+          "notice": "Prepare an expected log with (bool checkTopic1, bool checkTopic2, bool checkTopic3, bool checkData).Call this function, then emit an event, then call a function. Internally after the call, we check if logs were emitted in the expected order with the expected topics and data as specified by the booleans."
+        },
+        "expectRevert(bytes)": {
+          "notice": "Expects an error from the next call."
+        },
+        "expectRevert(bytes4)": {
+          "notice": "Expects a revert from the next call."
+        },
+        "fee(uint256)": {
+          "notice": "Sets the block base fee."
+        },
+        "ffi(string[])": {
+          "notice": "Performs a foreign function call via a terminal call."
+        },
+        "getCode(string)": {
+          "notice": "Fetches the contract bytecode from its artifact file."
+        },
+        "label(address,string)": {
+          "notice": "Label an address in test traces."
+        },
+        "load(address,bytes32)": {
+          "notice": "Loads a storage slot from an address."
+        },
+        "mockCall(address,bytes,bytes)": {
+          "notice": "Mocks the behavior of a contract call, setting the input and output for a function.Calldata can either be strict or a partial match, e.g. if only passed a selector to the expected calldata, then the entire function will be mocked."
+        },
+        "prank(address)": {
+          "notice": "Sets the next call's msg.sender to be the input address."
+        },
+        "prank(address,address)": {
+          "notice": "Sets the next call's msg.sender to be the input address and the tx.origin to be the second input."
+        },
+        "record()": {
+          "notice": "Record all storage reads and writes."
+        },
+        "roll(uint256)": {
+          "notice": "Sets the block height."
+        },
+        "sign(uint256,bytes32)": {
+          "notice": "Signs a digest with a private key, returns v r s."
+        },
+        "startPrank(address)": {
+          "notice": "Sets all subsequent calls' msg.sender to be the input address until stopPrank is called."
+        },
+        "startPrank(address,address)": {
+          "notice": "Sets all subsequent calls' msg.sender to be the input address and sets tx.origin to be the second address inputted until stopPrank is called."
+        },
+        "stopPrank()": {
+          "notice": "Resets msg.sender to its original value before a prank."
+        },
+        "store(address,bytes32,bytes32)": {
+          "notice": "Stores a value to an address' storage slot."
+        },
+        "warp(uint256)": {
+          "notice": "Sets the block timestamp."
+        }
+      },
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "test/utils/Hevm.sol": "Hevm"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [
+      ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/",
+      ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/",
+      ":ds-test/=lib/solmate/lib/ds-test/src/",
+      ":forge-std/=lib/forge-std/src/",
+      ":solmate/=lib/solmate/src/"
+    ]
+  },
+  "sources": {
+    "test/utils/Hevm.sol": {
+      "keccak256": "0x5914facc79358d57f3a0bec95908271b4f89a8abeb05bbea2dddb6a7e3c79c25",
+      "license": "AGPL-3.0-only",
+      "urls": [
+        "bzz-raw://103a150bec6b6fcfb66ec6a2cef66fc26201bc1810e10cc359f4b673c4027c19",
+        "dweb:/ipfs/QmZcM7ER16WeE1zYCtHqBfRZqqYm7ThLEC8Lgw2PAoAUVU"
+      ]
+    }
+  },
+  "version": 1
+}
