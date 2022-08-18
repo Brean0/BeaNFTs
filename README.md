@@ -6,16 +6,18 @@
 
 ### Getting Started
 
- * Use Foundry: 
+ * Install Foundry: 
 ```bash
-forge install
-forge test
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+
 ```
 
- * Use Hardhat:
-```bash
-npm install
-npx hardhat test
+* Install foundry and Hardhat;
+``bash
+    cd BeaNFT
+    forge install
+    npm install
 ```
 
 
