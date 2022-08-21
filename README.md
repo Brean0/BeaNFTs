@@ -29,5 +29,6 @@ forge snapshot
 As with all contracts, minimizing gas is a priority for developers. Beanstalk uses a merkle tree to determine whether a user is eglible for a mint, in a gas efficent method. Futher gas optimizations were made on Openzeppelins ERC721Enumerable.sol. The gas savings, especially on bulk mints, can be seen here: 
 ### Notes
 
-Many Optimizations where taken in order to ensure low gas fees. As such, this is not a generic contract to be forked. 
+Many Optimizations where taken in order to ensure low gas fees. As such, this is not a generic contract to be forked (without modifications).
+This uses a Merkle tree in order to verify egliblity, the example can be seen in `merkle_stuff/index.js` 
 A downside is that ownerOf() and balanceOf() take considerably more gas. This was accepted as allowed us to reduce the gas costs of mints and transfers.
