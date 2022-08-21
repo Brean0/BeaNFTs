@@ -12,12 +12,12 @@ import "Openzeppelin-contracts/contracts/proxy/utils/UUPSUpgradeable.sol";
 /// @notice Mints NFTs, where rarity is based on time bought and size
 /// @dev Based on Upgradable ERC721Enum with optimizations, uses merkle root to determine tokenIDs
 /// @dev 2 merkle trees are used to facilitate batch and partial mints for users
-contract MyERC721UpgradeableOptimized is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable, UUPSUpgradeable { 
+contract ERC721Bean is Initializable, ERC721EnumerableUpgradeableOptimized, OwnableUpgradeable, UUPSUpgradeable { 
   string private _baseTokenURI;
   bytes32 private root;
   
   function initialize() external initializer {
-    __ERC721_init('Replant BeaNFT', 'BNFT');
+    __ERC721_init('BeaNFT Barn Raise', 'BEANFT');
     __ERC721Enumerable_init();
     __Ownable_init();
     //the root will be different, this is for testing using the test addresses on index.js

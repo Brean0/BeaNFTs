@@ -8,7 +8,7 @@ import "forge-std/console.sol";
 
 //contract examples
 import {UUPSProxy} from "../src/UUPSProxy.sol";
-import {MyERC721UpgradeableOptimized} from "../src/MyERC721UpgradeableOptimized.sol";
+import {ERC721Bean} from "../src/ERC721Bean.sol";
 import {ERC721ReceiverMockUpgradeable} from "../src/ERC721ReceiverMockUpgradeable.sol";
 
 //midway through, I realized there is no need to test the proxy, rather the implmentation instead 
@@ -77,7 +77,7 @@ contract ERC721Test is DSTestPlus {
     UUPSProxy proxy;
     address proxyAddress;
     address admin;
-    MyERC721UpgradeableOptimized token;
+    ERC721Bean token;
 
     mapping (address => bytes32[]) public proofs;
     mapping (address => uint256[]) public whitelisted_mints;
@@ -86,7 +86,7 @@ contract ERC721Test is DSTestPlus {
     
     
     function setUp() public {
-        token = new MyERC721UpgradeableOptimized();
+        token = new ERC721Bean();
         admin = hevm.addr(69);
         hevm.startPrank(admin);
         proxy = new UUPSProxy(address(token),"");
@@ -149,13 +149,13 @@ contract ERC721Test is DSTestPlus {
         (bool success, bytes memory _name) = address(proxy).call(
             abi.encodeWithSignature("name()"));
         assertTrue(success);
-        assertEq(abi.decode(_name, (string)),"Replant BeaNFT");
+        assertEq(abi.decode(_name, (string)),"BeaNFT Barn Raise");
 
         //SYMBOL
         (bool success_2 ,bytes memory _symbol) = address(proxy).call(
             abi.encodeWithSignature("symbol()"));
         assertTrue(success_2);
-        assertEq(abi.decode(_symbol, (string)),"BNFT");
+        assertEq(abi.decode(_symbol, (string)),"BEANFT");
     }
 
     function testWhitelistedUserCanMint() public {
@@ -396,7 +396,8 @@ contract ERC721Test is DSTestPlus {
         assertEq(abi.decode(balance_new,(uint256)), 1);
         assertEq(abi.decode(balance_old,(uint256)), 0);
     }
-
+    
+   
     function testTransferFromApproveAll() public {
           //MINT
         address test_address = whitelist[0];
