@@ -7,6 +7,7 @@ import "@nomiclabs/hardhat-ethers";
 import "@openzeppelin/hardhat-upgrades";
 import "@nomiclabs/hardhat-etherscan";
 import '@nomiclabs/hardhat-truffle5';
+import "hardhat-gas-reporter";
 
 import example from "./tasks/example";
 

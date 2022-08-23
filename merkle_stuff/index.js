@@ -2,6 +2,17 @@ const {MerkleTree} = require("merkletreejs")
 const keccak256 = require("keccak256")
 const { ethers } = require("ethers")
 
+const csv=require('csvtojson')
+const csvFilePath='./BeaNFT_rank.csv'
+
+csv()
+.fromFile(csvFilePath)
+.then((jsonObj)=>{
+    console.log(jsonObj);
+})
+
+const jsonArray= csv().fromFile(csvFilePath);
+
 // Example Merkle Tree Creator
 // List of 10 public Ethereum addresses, from Anvil LocalHost
 var whitelist = [
@@ -34,7 +45,7 @@ for(var i =0;i<amt_minted.length; ++i){
     let entry = {"address": whitelist[i], "uint256[]" : test_array}
     whitelisted_mints.push(entry);
 }
-console.log(whitelisted_mints);
+//console.log(whitelisted_mints);
 
 //the result of this will let you put this on solidity
 //for(var i=0;i<whitelist.length;++i){
@@ -73,4 +84,4 @@ console.log(v);
 //the result of this will let you put this on solidity
 // for(var i=0;i<whitelist.length;++i){
 // console.log('proofs[' + Object.values(proof_array[i])[0] + '] =[' + Object.values(proof_array[i])[1] + "];" );
-// }
+// };

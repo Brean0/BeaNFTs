@@ -36,5 +36,6 @@ As with all contracts, minimizing gas is a priority for developers. Beanstalk us
 
 ### Notes
 
-Many Optimizations where taken in order to ensure low gas fees. As such, this is not a generic contract to be forked. 
+Many Optimizations where taken in order to ensure low gas fees. As such, this is not a generic contract to be forked (without modifications).
+This uses a Merkle tree in order to verify egliblity, the example can be seen in `merkle_stuff/index.js` 
 A downside is that ownerOf() and balanceOf() take considerably more gas. This was accepted as allowed us to reduce the gas costs of mints and transfers.
