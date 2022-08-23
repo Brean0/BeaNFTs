@@ -58,8 +58,7 @@ contract ERC721Test is DSTestPlus {
     ERC721EnumerableMock token;
     uint256[] arrayStuff;
     function setUp() public {
-        token = new ERC721EnumerableMock("Token", "TKN");
-    }
+        token = new ERC721EnumerableMock("Token", "TKN");    }
 
     function invariantMetadata() public {
         assertEq(token.name(), "Token");
