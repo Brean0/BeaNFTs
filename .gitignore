@@ -1,0 +1,18 @@
+# Foundry
+cache/
+out/
+
+# JS
+node_modules/
+
+#Hardhat files
+cache_hardhat/
+artifacts/
+
+#Hardhat plugin files
+typechain-types/
+
+#determining NFT array thing:
+array-generation-python/
+
+.env
