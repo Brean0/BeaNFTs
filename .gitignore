@@ -1,3 +1,4 @@
+.env
 # Foundry
 cache/
 out/
@@ -14,5 +15,3 @@ typechain-types/
 
 #determining NFT array thing:
 array-generation-python/
-
-.env
