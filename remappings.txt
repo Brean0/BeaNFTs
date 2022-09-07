@@ -1,0 +1,6 @@
+Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/contracts/
+ERC721A-Upgradeable/=lib/ERC721A-Upgradeable/contracts/
+Openzeppelin-contracts/=lib/Openzeppelin-contracts/contracts/
+ds-test/=lib/solmate/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+solmate/=lib/solmate/src/

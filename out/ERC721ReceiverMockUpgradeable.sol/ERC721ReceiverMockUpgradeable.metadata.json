@@ -1,0 +1,170 @@
+{
+  "compiler": {
+    "version": "0.8.11+commit.d7f03943"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "uint8",
+            "name": "version",
+            "type": "uint8"
+          }
+        ],
+        "name": "Initialized",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "address",
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "tokenId",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "gas",
+            "type": "uint256"
+          }
+        ],
+        "name": "Received",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "operator",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          }
+        ],
+        "name": "onERC721Received",
+        "outputs": [
+          {
+            "internalType": "bytes4",
+            "name": "",
+            "type": "bytes4"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {
+        "onERC721Received(address,address,uint256,bytes)": {
+          "details": "Whenever an {IERC721} `tokenId` token is transferred to this contract via {IERC721-safeTransferFrom} by `operator` from `from`, this function is called. It must return its Solidity selector to confirm the token transfer. If any other value is returned or the interface is not implemented by the recipient, the transfer will be reverted. The selector can be obtained in Solidity with `IERC721Receiver.onERC721Received.selector`."
+        }
+      },
+      "stateVariables": {
+        "__gap": {
+          "details": "This empty reserved space is put in place to allow future versions to add new variables without shifting down storage in the inheritance chain. See https://docs.openzeppelin.com/contracts/4.x/upgradeable#storage_gaps"
+        }
+      },
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "src/ERC721ReceiverMockUpgradeable.sol": "ERC721ReceiverMockUpgradeable"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [
+      ":ERC721A-Upgradeable/=lib/ERC721A-Upgradeable/contracts/",
+      ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/",
+      ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/",
+      ":ds-test/=lib/solmate/lib/ds-test/src/",
+      ":forge-std/=lib/forge-std/src/",
+      ":solmate/=lib/solmate/src/"
+    ]
+  },
+  "sources": {
+    "lib/Openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol": {
+      "keccak256": "0x0203dcadc5737d9ef2c211d6fa15d18ebc3b30dfa51903b64870b01a062b0b4e",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://6eb2fd1e9894dbe778f4b8131adecebe570689e63cf892f4e21257bfe1252497",
+        "dweb:/ipfs/QmXgUGNfZvrn6N2miv3nooSs7Jm34A41qz94fu2GtDFcx8"
+      ]
+    },
+    "lib/Openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol": {
+      "keccak256": "0xf8313972e73a49ff9a8c2dee0b9a07a3585bc4d077bd8a9670ebdd76ff390177",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://3fc2a0888fca21e976b4b77ca46891f547ff339a8175bc0a6461a62ce65aa89a",
+        "dweb:/ipfs/QmYDpaGK98esv36MBanhjgzpS7QcisrsVMzttPknvxWhRG"
+      ]
+    },
+    "src/ERC721ReceiverMockUpgradeable.sol": {
+      "keccak256": "0xba2461928a711ce1af77008839a37e62ba6322d82419dc7059ee3822b5f73d41",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://9a229f010f416c8727e425d93aec0f600414329daa925d7e8d7115f6d2938774",
+        "dweb:/ipfs/QmX3vokY8UB32bia616AFWkLupfLfJQfBtEEwXLddiiNNL"
+      ]
+    },
+    "src/IERC721ReceiverUpgradeable.sol": {
+      "keccak256": "0xbb2ed8106d94aeae6858e2551a1e7174df73994b77b13ebd120ccaaef80155f5",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://8bc3c6a456dba727d8dd9fd33420febede490abb49a07469f61d2a3ace66a95a",
+        "dweb:/ipfs/QmVAWtEVj7K5AbvgJa9Dz22KiDq9eoptCjnVZqsTMtKXyd"
+      ]
+    }
+  },
+  "version": 1
+}
