@@ -11,23 +11,6 @@ import {UUPSProxy} from "../src/UUPSProxy.sol";
 import {ERC721Bean} from "../src/ERC721Bean.sol";
 import {ERC721ReceiverMockUpgradeable} from "../src/ERC721ReceiverMockUpgradeable.sol";
 
-//midway through, I realized there is no need to test the proxy, rather the implmentation instead 
-// will keep it here for examples 
-/// Merkle Tree data /// 
-/* 
-addresses = 
-[
-{"address":"0x5B38Da6a701c568545dCfcB03FcB875f56beddC4", "uint256[]": [1]  },
-{"address":"0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2", "uint256[]": [2,4,6]  },
-{"address":"0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db", "uint256[]": [3,9,69,71]  },
-{"address":"0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB", "uint256[]": [4,10,510,132]  },
-{"address":"0x617F2E2fD72FD9D5503197092aC168c91465E7f2", "uint256[]": [5,129,231,452,290]  },
-{"address":"0x17F6AD8Ef982297579C203069C1DbfFE4348c372", "uint256[]": [6,20]  },
-
-{"address":"0x5c6B0f7Bf3E7ce046039Bd8FABdfD3f9F5021678", "uint256[]": [7,890]  },
-{"address":"0x03C6FcED478cBbC9a4FAB34eF9f40767739D1Ff7", "uint256[]": [8,327]  },
-]
-*/
 contract ERC721Recipient is ERC721ReceiverMockUpgradeable {
     address public operator;
     address public from;

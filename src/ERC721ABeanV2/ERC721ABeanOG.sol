@@ -10,11 +10,11 @@ import '@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol';
 
 
 
-contract ERC721ABeanV2 is ERC721AUpgradeable, OwnableUpgradeable, UUPSUpgradeable {
+
+contract ERC721ABeanOG is ERC721AUpgradeable, OwnableUpgradeable, UUPSUpgradeable {
     function initialize(string memory name_, string memory symbol_,address[] calldata addresses_, uint256[] calldata amt_) initializerERC721A initializer public {
         __ERC721A_init(name_, symbol_);
         __Ownable_init();
-        // add mint all function 
         __adminMintAllInit(addresses_,amt_);
     }
 
@@ -46,6 +46,17 @@ contract ERC721ABeanV2 is ERC721AUpgradeable, OwnableUpgradeable, UUPSUpgradeabl
 
     function baseURI() public view returns (string memory) {
         return _baseURI();
+    }
+
+    function _baseURI() internal view virtual override returns (string memory) {
+        return 'https://bafybeianbuqa76gtcp625aqshrtrgg5xxlye2kidyrts4ucr4ngiomrcey.ipfs.nftstorage.link/';
+    }
+
+    function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
+        if (!_exists(tokenId)) revert URIQueryForNonexistentToken();
+
+        string memory __baseURI = _baseURI();
+        return bytes(__baseURI).length != 0 ? string(abi.encodePacked(__baseURI, _toString(tokenId),".json")) : '';
     }
 
     function exists(uint256 tokenId) public view returns (bool) {

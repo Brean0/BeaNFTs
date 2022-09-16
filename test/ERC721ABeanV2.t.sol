@@ -8,7 +8,7 @@ import "forge-std/console.sol";
 
 //contract examples
 import {UUPSProxy} from "../src/UUPSProxy.sol";
-import {ERC721ABeanV2} from "../src/ERC721ABeanV2/ERC721ABeanV2.sol";
+import {ERC721ABean} from "../src/ERC721ABeanV2/ERC721ABean.sol";
 
 contract ERC721Test is DSTestPlus{
     UUPSProxy proxy;

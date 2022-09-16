@@ -8,6 +8,7 @@ import "@openzeppelin/hardhat-upgrades";
 import "@nomiclabs/hardhat-etherscan";
 //import '@nomiclabs/hardhat-truffle5';
 import "hardhat-gas-reporter";
+require("dotenv").config();
 
 import example from "./tasks/example";
 
@@ -35,6 +36,10 @@ const config: HardhatUserConfig = {
     goerli: {
       url: process.env.ALCHEMY_URL,
       accounts: [process.env.PRI_KEY!]
+    },
+    mainnet: {
+      url: process.env.MAINNET_ALCHEMY_URL,
+      accounts: [process.env.MAINNET_KEY!]
     },
   },
   etherscan: {
