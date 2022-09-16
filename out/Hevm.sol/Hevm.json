@@ -487,6 +487,7 @@
   },
   "ast": {
     "absolutePath": "test/utils/Hevm.sol",
+<<<<<<< HEAD
     "id": 18068,
     "exportedSymbols": {
       "Hevm": [
@@ -500,6 +501,21 @@
         "id": 17865,
         "nodeType": "PragmaDirective",
         "src": "42:24:31",
+=======
+    "id": 19886,
+    "exportedSymbols": {
+      "Hevm": [
+        19885
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "42:3913:43",
+    "nodes": [
+      {
+        "id": 19683,
+        "nodeType": "PragmaDirective",
+        "src": "42:24:43",
+>>>>>>> dev
         "literals": [
           "solidity",
           ">=",
@@ -508,6 +524,7 @@
         ]
       },
       {
+<<<<<<< HEAD
         "id": 18067,
         "nodeType": "ContractDefinition",
         "src": "68:3886:31",
@@ -520,6 +537,20 @@
               "id": 17866,
               "nodeType": "StructuredDocumentation",
               "src": "89:37:31",
+=======
+        "id": 19885,
+        "nodeType": "ContractDefinition",
+        "src": "68:3886:43",
+        "nodes": [
+          {
+            "id": 19689,
+            "nodeType": "FunctionDefinition",
+            "src": "131:32:43",
+            "documentation": {
+              "id": 19684,
+              "nodeType": "StructuredDocumentation",
+              "src": "89:37:43",
+>>>>>>> dev
               "text": "@notice Sets the block timestamp."
             },
             "functionSelector": "e5d6bf02",
@@ -527,20 +558,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "warp",
+<<<<<<< HEAD
             "nameLocation": "140:4:31",
             "parameters": {
               "id": 17869,
+=======
+            "nameLocation": "140:4:43",
+            "parameters": {
+              "id": 19687,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17868,
+=======
+                  "id": 19686,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17871,
                   "src": "145:7:31",
+=======
+                  "scope": 19689,
+                  "src": "145:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -548,10 +594,17 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17867,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "145:7:31",
+=======
+                    "id": 19685,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "145:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -560,6 +613,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "144:9:31"
             },
             "returnParameters": {
@@ -569,11 +623,23 @@
               "src": "162:0:31"
             },
             "scope": 18067,
+=======
+              "src": "144:9:43"
+            },
+            "returnParameters": {
+              "id": 19688,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "162:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17877,
             "nodeType": "FunctionDefinition",
             "src": "208:32:31",
@@ -581,6 +647,15 @@
               "id": 17872,
               "nodeType": "StructuredDocumentation",
               "src": "169:34:31",
+=======
+            "id": 19695,
+            "nodeType": "FunctionDefinition",
+            "src": "208:32:43",
+            "documentation": {
+              "id": 19690,
+              "nodeType": "StructuredDocumentation",
+              "src": "169:34:43",
+>>>>>>> dev
               "text": "@notice Sets the block height."
             },
             "functionSelector": "1f7b4f30",
@@ -588,20 +663,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "roll",
+<<<<<<< HEAD
             "nameLocation": "217:4:31",
             "parameters": {
               "id": 17875,
+=======
+            "nameLocation": "217:4:43",
+            "parameters": {
+              "id": 19693,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17874,
+=======
+                  "id": 19692,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17877,
                   "src": "222:7:31",
+=======
+                  "scope": 19695,
+                  "src": "222:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -609,10 +699,17 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17873,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "222:7:31",
+=======
+                    "id": 19691,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "222:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -621,6 +718,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "221:9:31"
             },
             "returnParameters": {
@@ -630,11 +728,23 @@
               "src": "239:0:31"
             },
             "scope": 18067,
+=======
+              "src": "221:9:43"
+            },
+            "returnParameters": {
+              "id": 19694,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "239:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17883,
             "nodeType": "FunctionDefinition",
             "src": "287:31:31",
@@ -642,6 +752,15 @@
               "id": 17878,
               "nodeType": "StructuredDocumentation",
               "src": "246:36:31",
+=======
+            "id": 19701,
+            "nodeType": "FunctionDefinition",
+            "src": "287:31:43",
+            "documentation": {
+              "id": 19696,
+              "nodeType": "StructuredDocumentation",
+              "src": "246:36:43",
+>>>>>>> dev
               "text": "@notice Sets the block base fee."
             },
             "functionSelector": "39b37ab0",
@@ -649,20 +768,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "fee",
+<<<<<<< HEAD
             "nameLocation": "296:3:31",
             "parameters": {
               "id": 17881,
+=======
+            "nameLocation": "296:3:43",
+            "parameters": {
+              "id": 19699,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17880,
+=======
+                  "id": 19698,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17883,
                   "src": "300:7:31",
+=======
+                  "scope": 19701,
+                  "src": "300:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -670,10 +804,17 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17879,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "300:7:31",
+=======
+                    "id": 19697,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "300:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -682,6 +823,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "299:9:31"
             },
             "returnParameters": {
@@ -691,11 +833,23 @@
               "src": "317:0:31"
             },
             "scope": 18067,
+=======
+              "src": "299:9:43"
+            },
+            "returnParameters": {
+              "id": 19700,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "317:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17893,
             "nodeType": "FunctionDefinition",
             "src": "378:59:31",
@@ -703,6 +857,15 @@
               "id": 17884,
               "nodeType": "StructuredDocumentation",
               "src": "324:49:31",
+=======
+            "id": 19711,
+            "nodeType": "FunctionDefinition",
+            "src": "378:59:43",
+            "documentation": {
+              "id": 19702,
+              "nodeType": "StructuredDocumentation",
+              "src": "324:49:43",
+>>>>>>> dev
               "text": "@notice Loads a storage slot from an address."
             },
             "functionSelector": "667f9d70",
@@ -710,20 +873,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "load",
+<<<<<<< HEAD
             "nameLocation": "387:4:31",
             "parameters": {
               "id": 17889,
+=======
+            "nameLocation": "387:4:43",
+            "parameters": {
+              "id": 19707,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17886,
+=======
+                  "id": 19704,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17893,
                   "src": "392:7:31",
+=======
+                  "scope": 19711,
+                  "src": "392:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -731,10 +909,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17885,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "392:7:31",
+=======
+                    "id": 19703,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "392:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -745,13 +930,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17888,
+=======
+                  "id": 19706,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17893,
                   "src": "401:7:31",
+=======
+                  "scope": 19711,
+                  "src": "401:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -759,10 +953,17 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17887,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "401:7:31",
+=======
+                    "id": 19705,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "401:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -771,21 +972,37 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "391:18:31"
             },
             "returnParameters": {
               "id": 17892,
+=======
+              "src": "391:18:43"
+            },
+            "returnParameters": {
+              "id": 19710,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17891,
+=======
+                  "id": 19709,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17893,
                   "src": "428:7:31",
+=======
+                  "scope": 19711,
+                  "src": "428:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -793,10 +1010,17 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17890,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "428:7:31",
+=======
+                    "id": 19708,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "428:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -805,14 +1029,21 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "427:9:31"
             },
             "scope": 18067,
+=======
+              "src": "427:9:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17903,
             "nodeType": "FunctionDefinition",
             "src": "503:81:31",
@@ -820,6 +1051,15 @@
               "id": 17894,
               "nodeType": "StructuredDocumentation",
               "src": "443:55:31",
+=======
+            "id": 19721,
+            "nodeType": "FunctionDefinition",
+            "src": "503:81:43",
+            "documentation": {
+              "id": 19712,
+              "nodeType": "StructuredDocumentation",
+              "src": "443:55:43",
+>>>>>>> dev
               "text": "@notice Stores a value to an address' storage slot."
             },
             "functionSelector": "70ca10bb",
@@ -827,20 +1067,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "store",
+<<<<<<< HEAD
             "nameLocation": "512:5:31",
             "parameters": {
               "id": 17901,
+=======
+            "nameLocation": "512:5:43",
+            "parameters": {
+              "id": 19719,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17896,
+=======
+                  "id": 19714,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17903,
                   "src": "527:7:31",
+=======
+                  "scope": 19721,
+                  "src": "527:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -848,10 +1103,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17895,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "527:7:31",
+=======
+                    "id": 19713,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "527:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -862,13 +1124,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17898,
+=======
+                  "id": 19716,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17903,
                   "src": "544:7:31",
+=======
+                  "scope": 19721,
+                  "src": "544:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -876,10 +1147,17 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17897,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "544:7:31",
+=======
+                    "id": 19715,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "544:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -889,13 +1167,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17900,
+=======
+                  "id": 19718,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17903,
                   "src": "561:7:31",
+=======
+                  "scope": 19721,
+                  "src": "561:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -903,10 +1190,17 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17899,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "561:7:31",
+=======
+                    "id": 19717,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "561:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -915,6 +1209,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "517:57:31"
             },
             "returnParameters": {
@@ -924,11 +1219,23 @@
               "src": "583:0:31"
             },
             "scope": 18067,
+=======
+              "src": "517:57:43"
+            },
+            "returnParameters": {
+              "id": 19720,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "583:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17917,
             "nodeType": "FunctionDefinition",
             "src": "656:137:31",
@@ -936,6 +1243,15 @@
               "id": 17904,
               "nodeType": "StructuredDocumentation",
               "src": "590:61:31",
+=======
+            "id": 19735,
+            "nodeType": "FunctionDefinition",
+            "src": "656:137:43",
+            "documentation": {
+              "id": 19722,
+              "nodeType": "StructuredDocumentation",
+              "src": "590:61:43",
+>>>>>>> dev
               "text": "@notice Signs a digest with a private key, returns v r s."
             },
             "functionSelector": "e341eaa4",
@@ -943,20 +1259,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "sign",
+<<<<<<< HEAD
             "nameLocation": "665:4:31",
             "parameters": {
               "id": 17909,
+=======
+            "nameLocation": "665:4:43",
+            "parameters": {
+              "id": 19727,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17906,
+=======
+                  "id": 19724,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17917,
                   "src": "670:7:31",
+=======
+                  "scope": 19735,
+                  "src": "670:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -964,10 +1295,17 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17905,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "670:7:31",
+=======
+                    "id": 19723,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "670:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -977,13 +1315,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17908,
+=======
+                  "id": 19726,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17917,
                   "src": "679:7:31",
+=======
+                  "scope": 19735,
+                  "src": "679:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -991,10 +1338,17 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17907,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "679:7:31",
+=======
+                    "id": 19725,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "679:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1003,21 +1357,37 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "669:18:31"
             },
             "returnParameters": {
               "id": 17916,
+=======
+              "src": "669:18:43"
+            },
+            "returnParameters": {
+              "id": 19734,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17911,
+=======
+                  "id": 19729,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17917,
                   "src": "735:5:31",
+=======
+                  "scope": 19735,
+                  "src": "735:5:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1025,10 +1395,17 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17910,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
                     "src": "735:5:31",
+=======
+                    "id": 19728,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "735:5:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -1038,13 +1415,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17913,
+=======
+                  "id": 19731,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17917,
                   "src": "754:7:31",
+=======
+                  "scope": 19735,
+                  "src": "754:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1052,10 +1438,17 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17912,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "754:7:31",
+=======
+                    "id": 19730,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "754:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1065,13 +1458,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17915,
+=======
+                  "id": 19733,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17917,
                   "src": "775:7:31",
+=======
+                  "scope": 19735,
+                  "src": "775:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1079,10 +1481,17 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17914,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "775:7:31",
+=======
+                    "id": 19732,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "775:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1091,14 +1500,21 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "721:71:31"
             },
             "scope": 18067,
+=======
+              "src": "721:71:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17925,
             "nodeType": "FunctionDefinition",
             "src": "853:50:31",
@@ -1106,6 +1522,15 @@
               "id": 17918,
               "nodeType": "StructuredDocumentation",
               "src": "799:49:31",
+=======
+            "id": 19743,
+            "nodeType": "FunctionDefinition",
+            "src": "853:50:43",
+            "documentation": {
+              "id": 19736,
+              "nodeType": "StructuredDocumentation",
+              "src": "799:49:43",
+>>>>>>> dev
               "text": "@notice Gets address for a given private key."
             },
             "functionSelector": "ffa18649",
@@ -1113,20 +1538,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "addr",
+<<<<<<< HEAD
             "nameLocation": "862:4:31",
             "parameters": {
               "id": 17921,
+=======
+            "nameLocation": "862:4:43",
+            "parameters": {
+              "id": 19739,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17920,
+=======
+                  "id": 19738,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17925,
                   "src": "867:7:31",
+=======
+                  "scope": 19743,
+                  "src": "867:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1134,10 +1574,17 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17919,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "867:7:31",
+=======
+                    "id": 19737,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "867:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1146,21 +1593,37 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "866:9:31"
             },
             "returnParameters": {
               "id": 17924,
+=======
+              "src": "866:9:43"
+            },
+            "returnParameters": {
+              "id": 19742,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17923,
+=======
+                  "id": 19741,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17925,
                   "src": "894:7:31",
+=======
+                  "scope": 19743,
+                  "src": "894:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1168,10 +1631,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17922,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "894:7:31",
+=======
+                    "id": 19740,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "894:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1181,14 +1651,21 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "893:9:31"
             },
             "scope": 18067,
+=======
+              "src": "893:9:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17934,
             "nodeType": "FunctionDefinition",
             "src": "979:64:31",
@@ -1196,6 +1673,15 @@
               "id": 17926,
               "nodeType": "StructuredDocumentation",
               "src": "909:65:31",
+=======
+            "id": 19752,
+            "nodeType": "FunctionDefinition",
+            "src": "979:64:43",
+            "documentation": {
+              "id": 19744,
+              "nodeType": "StructuredDocumentation",
+              "src": "909:65:43",
+>>>>>>> dev
               "text": "@notice Performs a foreign function call via a terminal call."
             },
             "functionSelector": "89160467",
@@ -1203,20 +1689,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "ffi",
+<<<<<<< HEAD
             "nameLocation": "988:3:31",
             "parameters": {
               "id": 17930,
+=======
+            "nameLocation": "988:3:43",
+            "parameters": {
+              "id": 19748,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17929,
+=======
+                  "id": 19747,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17934,
                   "src": "992:17:31",
+=======
+                  "scope": 19752,
+                  "src": "992:17:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -1225,18 +1726,31 @@
                   },
                   "typeName": {
                     "baseType": {
+<<<<<<< HEAD
                       "id": 17927,
                       "name": "string",
                       "nodeType": "ElementaryTypeName",
                       "src": "992:6:31",
+=======
+                      "id": 19745,
+                      "name": "string",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "992:6:43",
+>>>>>>> dev
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage_ptr",
                         "typeString": "string"
                       }
                     },
+<<<<<<< HEAD
                     "id": 17928,
                     "nodeType": "ArrayTypeName",
                     "src": "992:8:31",
+=======
+                    "id": 19746,
+                    "nodeType": "ArrayTypeName",
+                    "src": "992:8:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
                       "typeString": "string[]"
@@ -1245,21 +1759,37 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "991:19:31"
             },
             "returnParameters": {
               "id": 17933,
+=======
+              "src": "991:19:43"
+            },
+            "returnParameters": {
+              "id": 19751,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17932,
+=======
+                  "id": 19750,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17934,
                   "src": "1029:12:31",
+=======
+                  "scope": 19752,
+                  "src": "1029:12:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1267,10 +1797,17 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17931,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "1029:5:31",
+=======
+                    "id": 19749,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1029:5:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -1279,14 +1816,21 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "1028:14:31"
             },
             "scope": 18067,
+=======
+              "src": "1028:14:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17940,
             "nodeType": "FunctionDefinition",
             "src": "1122:33:31",
@@ -1294,6 +1838,15 @@
               "id": 17935,
               "nodeType": "StructuredDocumentation",
               "src": "1049:68:31",
+=======
+            "id": 19758,
+            "nodeType": "FunctionDefinition",
+            "src": "1122:33:43",
+            "documentation": {
+              "id": 19753,
+              "nodeType": "StructuredDocumentation",
+              "src": "1049:68:43",
+>>>>>>> dev
               "text": "@notice Sets the next call's msg.sender to be the input address."
             },
             "functionSelector": "ca669fa7",
@@ -1301,20 +1854,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "prank",
+<<<<<<< HEAD
             "nameLocation": "1131:5:31",
             "parameters": {
               "id": 17938,
+=======
+            "nameLocation": "1131:5:43",
+            "parameters": {
+              "id": 19756,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17937,
+=======
+                  "id": 19755,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17940,
                   "src": "1137:7:31",
+=======
+                  "scope": 19758,
+                  "src": "1137:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1322,10 +1890,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17936,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1137:7:31",
+=======
+                    "id": 19754,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1137:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1335,6 +1910,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "1136:9:31"
             },
             "returnParameters": {
@@ -1344,11 +1920,23 @@
               "src": "1154:0:31"
             },
             "scope": 18067,
+=======
+              "src": "1136:9:43"
+            },
+            "returnParameters": {
+              "id": 19757,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1154:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17946,
             "nodeType": "FunctionDefinition",
             "src": "1266:38:31",
@@ -1356,6 +1944,15 @@
               "id": 17941,
               "nodeType": "StructuredDocumentation",
               "src": "1161:100:31",
+=======
+            "id": 19764,
+            "nodeType": "FunctionDefinition",
+            "src": "1266:38:43",
+            "documentation": {
+              "id": 19759,
+              "nodeType": "StructuredDocumentation",
+              "src": "1161:100:43",
+>>>>>>> dev
               "text": "@notice Sets all subsequent calls' msg.sender to be the input address until stopPrank is called."
             },
             "functionSelector": "06447d56",
@@ -1363,20 +1960,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "startPrank",
+<<<<<<< HEAD
             "nameLocation": "1275:10:31",
             "parameters": {
               "id": 17944,
+=======
+            "nameLocation": "1275:10:43",
+            "parameters": {
+              "id": 19762,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17943,
+=======
+                  "id": 19761,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17946,
                   "src": "1286:7:31",
+=======
+                  "scope": 19764,
+                  "src": "1286:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1384,10 +1996,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17942,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1286:7:31",
+=======
+                    "id": 19760,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1286:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1397,6 +2016,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "1285:9:31"
             },
             "returnParameters": {
@@ -1406,11 +2026,23 @@
               "src": "1303:0:31"
             },
             "scope": 18067,
+=======
+              "src": "1285:9:43"
+            },
+            "returnParameters": {
+              "id": 19763,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1303:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17954,
             "nodeType": "FunctionDefinition",
             "src": "1424:42:31",
@@ -1418,6 +2050,15 @@
               "id": 17947,
               "nodeType": "StructuredDocumentation",
               "src": "1310:109:31",
+=======
+            "id": 19772,
+            "nodeType": "FunctionDefinition",
+            "src": "1424:42:43",
+            "documentation": {
+              "id": 19765,
+              "nodeType": "StructuredDocumentation",
+              "src": "1310:109:43",
+>>>>>>> dev
               "text": "@notice Sets the next call's msg.sender to be the input address and the tx.origin to be the second input."
             },
             "functionSelector": "47e50cce",
@@ -1425,20 +2066,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "prank",
+<<<<<<< HEAD
             "nameLocation": "1433:5:31",
             "parameters": {
               "id": 17952,
+=======
+            "nameLocation": "1433:5:43",
+            "parameters": {
+              "id": 19770,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17949,
+=======
+                  "id": 19767,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17954,
                   "src": "1439:7:31",
+=======
+                  "scope": 19772,
+                  "src": "1439:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1446,10 +2102,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17948,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1439:7:31",
+=======
+                    "id": 19766,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1439:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1460,13 +2123,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17951,
+=======
+                  "id": 19769,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17954,
                   "src": "1448:7:31",
+=======
+                  "scope": 19772,
+                  "src": "1448:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1474,10 +2146,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17950,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1448:7:31",
+=======
+                    "id": 19768,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1448:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1487,6 +2166,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "1438:18:31"
             },
             "returnParameters": {
@@ -1496,11 +2176,23 @@
               "src": "1465:0:31"
             },
             "scope": 18067,
+=======
+              "src": "1438:18:43"
+            },
+            "returnParameters": {
+              "id": 19771,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1465:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17962,
             "nodeType": "FunctionDefinition",
             "src": "1638:47:31",
@@ -1508,6 +2200,15 @@
               "id": 17955,
               "nodeType": "StructuredDocumentation",
               "src": "1472:161:31",
+=======
+            "id": 19780,
+            "nodeType": "FunctionDefinition",
+            "src": "1638:47:43",
+            "documentation": {
+              "id": 19773,
+              "nodeType": "StructuredDocumentation",
+              "src": "1472:161:43",
+>>>>>>> dev
               "text": "@notice Sets all subsequent calls' msg.sender to be the input address and\n sets tx.origin to be the second address inputted until stopPrank is called."
             },
             "functionSelector": "45b56078",
@@ -1515,20 +2216,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "startPrank",
+<<<<<<< HEAD
             "nameLocation": "1647:10:31",
             "parameters": {
               "id": 17960,
+=======
+            "nameLocation": "1647:10:43",
+            "parameters": {
+              "id": 19778,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17957,
+=======
+                  "id": 19775,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17962,
                   "src": "1658:7:31",
+=======
+                  "scope": 19780,
+                  "src": "1658:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1536,10 +2252,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17956,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1658:7:31",
+=======
+                    "id": 19774,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1658:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1550,13 +2273,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17959,
+=======
+                  "id": 19777,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17962,
                   "src": "1667:7:31",
+=======
+                  "scope": 19780,
+                  "src": "1667:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1564,10 +2296,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17958,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1667:7:31",
+=======
+                    "id": 19776,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1667:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1577,6 +2316,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "1657:18:31"
             },
             "returnParameters": {
@@ -1586,11 +2326,23 @@
               "src": "1684:0:31"
             },
             "scope": 18067,
+=======
+              "src": "1657:18:43"
+            },
+            "returnParameters": {
+              "id": 19779,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1684:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17966,
             "nodeType": "FunctionDefinition",
             "src": "1763:30:31",
@@ -1598,6 +2350,15 @@
               "id": 17963,
               "nodeType": "StructuredDocumentation",
               "src": "1691:67:31",
+=======
+            "id": 19784,
+            "nodeType": "FunctionDefinition",
+            "src": "1763:30:43",
+            "documentation": {
+              "id": 19781,
+              "nodeType": "StructuredDocumentation",
+              "src": "1691:67:43",
+>>>>>>> dev
               "text": "@notice Resets msg.sender to its original value before a prank."
             },
             "functionSelector": "90c5013b",
@@ -1605,6 +2366,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "stopPrank",
+<<<<<<< HEAD
             "nameLocation": "1772:9:31",
             "parameters": {
               "id": 17964,
@@ -1619,11 +2381,28 @@
               "src": "1792:0:31"
             },
             "scope": 18067,
+=======
+            "nameLocation": "1772:9:43",
+            "parameters": {
+              "id": 19782,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1781:2:43"
+            },
+            "returnParameters": {
+              "id": 19783,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1792:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17974,
             "nodeType": "FunctionDefinition",
             "src": "1841:41:31",
@@ -1631,6 +2410,15 @@
               "id": 17967,
               "nodeType": "StructuredDocumentation",
               "src": "1799:37:31",
+=======
+            "id": 19792,
+            "nodeType": "FunctionDefinition",
+            "src": "1841:41:43",
+            "documentation": {
+              "id": 19785,
+              "nodeType": "StructuredDocumentation",
+              "src": "1799:37:43",
+>>>>>>> dev
               "text": "@notice Sets an address' balance."
             },
             "functionSelector": "c88a5e6d",
@@ -1638,20 +2426,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "deal",
+<<<<<<< HEAD
             "nameLocation": "1850:4:31",
             "parameters": {
               "id": 17972,
+=======
+            "nameLocation": "1850:4:43",
+            "parameters": {
+              "id": 19790,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17969,
+=======
+                  "id": 19787,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17974,
                   "src": "1855:7:31",
+=======
+                  "scope": 19792,
+                  "src": "1855:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1659,10 +2462,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17968,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1855:7:31",
+=======
+                    "id": 19786,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1855:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1673,13 +2483,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17971,
+=======
+                  "id": 19789,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17974,
                   "src": "1864:7:31",
+=======
+                  "scope": 19792,
+                  "src": "1864:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1687,10 +2506,17 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17970,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1864:7:31",
+=======
+                    "id": 19788,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1864:7:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1699,6 +2525,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "1854:18:31"
             },
             "returnParameters": {
@@ -1708,11 +2535,23 @@
               "src": "1881:0:31"
             },
             "scope": 18067,
+=======
+              "src": "1854:18:43"
+            },
+            "returnParameters": {
+              "id": 19791,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1881:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17982,
             "nodeType": "FunctionDefinition",
             "src": "1927:48:31",
@@ -1720,6 +2559,15 @@
               "id": 17975,
               "nodeType": "StructuredDocumentation",
               "src": "1888:34:31",
+=======
+            "id": 19800,
+            "nodeType": "FunctionDefinition",
+            "src": "1927:48:43",
+            "documentation": {
+              "id": 19793,
+              "nodeType": "StructuredDocumentation",
+              "src": "1888:34:43",
+>>>>>>> dev
               "text": "@notice Sets an address' code."
             },
             "functionSelector": "b4d6c782",
@@ -1727,20 +2575,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "etch",
+<<<<<<< HEAD
             "nameLocation": "1936:4:31",
             "parameters": {
               "id": 17980,
+=======
+            "nameLocation": "1936:4:43",
+            "parameters": {
+              "id": 19798,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17977,
+=======
+                  "id": 19795,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17982,
                   "src": "1941:7:31",
+=======
+                  "scope": 19800,
+                  "src": "1941:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1748,10 +2611,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17976,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1941:7:31",
+=======
+                    "id": 19794,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1941:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1762,13 +2632,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17979,
+=======
+                  "id": 19797,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17982,
                   "src": "1950:14:31",
+=======
+                  "scope": 19800,
+                  "src": "1950:14:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -1776,10 +2655,17 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17978,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "1950:5:31",
+=======
+                    "id": 19796,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1950:5:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -1788,6 +2674,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "1940:25:31"
             },
             "returnParameters": {
@@ -1797,11 +2684,23 @@
               "src": "1974:0:31"
             },
             "scope": 18067,
+=======
+              "src": "1940:25:43"
+            },
+            "returnParameters": {
+              "id": 19799,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1974:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17988,
             "nodeType": "FunctionDefinition",
             "src": "2034:47:31",
@@ -1809,6 +2708,15 @@
               "id": 17983,
               "nodeType": "StructuredDocumentation",
               "src": "1981:48:31",
+=======
+            "id": 19806,
+            "nodeType": "FunctionDefinition",
+            "src": "2034:47:43",
+            "documentation": {
+              "id": 19801,
+              "nodeType": "StructuredDocumentation",
+              "src": "1981:48:43",
+>>>>>>> dev
               "text": "@notice Expects an error from the next call."
             },
             "functionSelector": "f28dceb3",
@@ -1816,20 +2724,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "expectRevert",
+<<<<<<< HEAD
             "nameLocation": "2043:12:31",
             "parameters": {
               "id": 17986,
+=======
+            "nameLocation": "2043:12:43",
+            "parameters": {
+              "id": 19804,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17985,
+=======
+                  "id": 19803,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17988,
                   "src": "2056:14:31",
+=======
+                  "scope": 19806,
+                  "src": "2056:14:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -1837,10 +2760,17 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17984,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "2056:5:31",
+=======
+                    "id": 19802,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2056:5:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -1849,6 +2779,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "2055:16:31"
             },
             "returnParameters": {
@@ -1858,11 +2789,23 @@
               "src": "2080:0:31"
             },
             "scope": 18067,
+=======
+              "src": "2055:16:43"
+            },
+            "returnParameters": {
+              "id": 19805,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2080:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17994,
             "nodeType": "FunctionDefinition",
             "src": "2140:39:31",
@@ -1870,6 +2813,15 @@
               "id": 17989,
               "nodeType": "StructuredDocumentation",
               "src": "2087:48:31",
+=======
+            "id": 19812,
+            "nodeType": "FunctionDefinition",
+            "src": "2140:39:43",
+            "documentation": {
+              "id": 19807,
+              "nodeType": "StructuredDocumentation",
+              "src": "2087:48:43",
+>>>>>>> dev
               "text": "@notice Expects a revert from the next call."
             },
             "functionSelector": "c31eb0e0",
@@ -1877,20 +2829,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "expectRevert",
+<<<<<<< HEAD
             "nameLocation": "2149:12:31",
             "parameters": {
               "id": 17992,
+=======
+            "nameLocation": "2149:12:43",
+            "parameters": {
+              "id": 19810,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 17991,
+=======
+                  "id": 19809,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 17994,
                   "src": "2162:6:31",
+=======
+                  "scope": 19812,
+                  "src": "2162:6:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1898,10 +2865,17 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 17990,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "2162:6:31",
+=======
+                    "id": 19808,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2162:6:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes4",
                       "typeString": "bytes4"
@@ -1910,6 +2884,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "2161:8:31"
             },
             "returnParameters": {
@@ -1919,11 +2894,23 @@
               "src": "2178:0:31"
             },
             "scope": 18067,
+=======
+              "src": "2161:8:43"
+            },
+            "returnParameters": {
+              "id": 19811,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2178:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 17998,
             "nodeType": "FunctionDefinition",
             "src": "2238:27:31",
@@ -1931,6 +2918,15 @@
               "id": 17995,
               "nodeType": "StructuredDocumentation",
               "src": "2185:48:31",
+=======
+            "id": 19816,
+            "nodeType": "FunctionDefinition",
+            "src": "2238:27:43",
+            "documentation": {
+              "id": 19813,
+              "nodeType": "StructuredDocumentation",
+              "src": "2185:48:43",
+>>>>>>> dev
               "text": "@notice Record all storage reads and writes."
             },
             "functionSelector": "266cf109",
@@ -1938,6 +2934,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "record",
+<<<<<<< HEAD
             "nameLocation": "2247:6:31",
             "parameters": {
               "id": 17996,
@@ -1952,11 +2949,28 @@
               "src": "2264:0:31"
             },
             "scope": 18067,
+=======
+            "nameLocation": "2247:6:43",
+            "parameters": {
+              "id": 19814,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2253:2:43"
+            },
+            "returnParameters": {
+              "id": 19815,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2264:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 18010,
             "nodeType": "FunctionDefinition",
             "src": "2374:94:31",
@@ -1964,6 +2978,15 @@
               "id": 17999,
               "nodeType": "StructuredDocumentation",
               "src": "2271:98:31",
+=======
+            "id": 19828,
+            "nodeType": "FunctionDefinition",
+            "src": "2374:94:43",
+            "documentation": {
+              "id": 19817,
+              "nodeType": "StructuredDocumentation",
+              "src": "2271:98:43",
+>>>>>>> dev
               "text": "@notice Gets all accessed reads and write slots from a recording session, for a given address."
             },
             "functionSelector": "65bc9481",
@@ -1971,20 +2994,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "accesses",
+<<<<<<< HEAD
             "nameLocation": "2383:8:31",
             "parameters": {
               "id": 18002,
+=======
+            "nameLocation": "2383:8:43",
+            "parameters": {
+              "id": 19820,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18001,
+=======
+                  "id": 19819,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18010,
                   "src": "2392:7:31",
+=======
+                  "scope": 19828,
+                  "src": "2392:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1992,10 +3030,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18000,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2392:7:31",
+=======
+                    "id": 19818,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2392:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2005,14 +3050,22 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "2391:9:31"
             },
             "returnParameters": {
               "id": 18009,
+=======
+              "src": "2391:9:43"
+            },
+            "returnParameters": {
+              "id": 19827,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18005,
                   "mutability": "mutable",
                   "name": "reads",
@@ -2020,6 +3073,15 @@
                   "nodeType": "VariableDeclaration",
                   "scope": 18010,
                   "src": "2419:22:31",
+=======
+                  "id": 19823,
+                  "mutability": "mutable",
+                  "name": "reads",
+                  "nameLocation": "2436:5:43",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 19828,
+                  "src": "2419:22:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2028,18 +3090,31 @@
                   },
                   "typeName": {
                     "baseType": {
+<<<<<<< HEAD
                       "id": 18003,
                       "name": "bytes32",
                       "nodeType": "ElementaryTypeName",
                       "src": "2419:7:31",
+=======
+                      "id": 19821,
+                      "name": "bytes32",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "2419:7:43",
+>>>>>>> dev
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
+<<<<<<< HEAD
                     "id": 18004,
                     "nodeType": "ArrayTypeName",
                     "src": "2419:9:31",
+=======
+                    "id": 19822,
+                    "nodeType": "ArrayTypeName",
+                    "src": "2419:9:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
                       "typeString": "bytes32[]"
@@ -2049,6 +3124,7 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18008,
                   "mutability": "mutable",
                   "name": "writes",
@@ -2056,6 +3132,15 @@
                   "nodeType": "VariableDeclaration",
                   "scope": 18010,
                   "src": "2443:23:31",
+=======
+                  "id": 19826,
+                  "mutability": "mutable",
+                  "name": "writes",
+                  "nameLocation": "2460:6:43",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 19828,
+                  "src": "2443:23:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2064,18 +3149,31 @@
                   },
                   "typeName": {
                     "baseType": {
+<<<<<<< HEAD
                       "id": 18006,
                       "name": "bytes32",
                       "nodeType": "ElementaryTypeName",
                       "src": "2443:7:31",
+=======
+                      "id": 19824,
+                      "name": "bytes32",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "2443:7:43",
+>>>>>>> dev
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
+<<<<<<< HEAD
                     "id": 18007,
                     "nodeType": "ArrayTypeName",
                     "src": "2443:9:31",
+=======
+                    "id": 19825,
+                    "nodeType": "ArrayTypeName",
+                    "src": "2443:9:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
                       "typeString": "bytes32[]"
@@ -2084,14 +3182,21 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "2418:49:31"
             },
             "scope": 18067,
+=======
+              "src": "2418:49:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 18022,
             "nodeType": "FunctionDefinition",
             "src": "2820:91:31",
@@ -2099,6 +3204,15 @@
               "id": 18011,
               "nodeType": "StructuredDocumentation",
               "src": "2474:341:31",
+=======
+            "id": 19840,
+            "nodeType": "FunctionDefinition",
+            "src": "2820:91:43",
+            "documentation": {
+              "id": 19829,
+              "nodeType": "StructuredDocumentation",
+              "src": "2474:341:43",
+>>>>>>> dev
               "text": "@notice Prepare an expected log with (bool checkTopic1, bool checkTopic2, bool checkTopic3, bool checkData).\n @notice Call this function, then emit an event, then call a function. Internally after the call, we check\n if logs were emitted in the expected order with the expected topics and data as specified by the booleans."
             },
             "functionSelector": "491cc7c2",
@@ -2106,20 +3220,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "expectEmit",
+<<<<<<< HEAD
             "nameLocation": "2829:10:31",
             "parameters": {
               "id": 18020,
+=======
+            "nameLocation": "2829:10:43",
+            "parameters": {
+              "id": 19838,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18013,
+=======
+                  "id": 19831,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18022,
                   "src": "2849:4:31",
+=======
+                  "scope": 19840,
+                  "src": "2849:4:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2127,10 +3256,17 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18012,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "2849:4:31",
+=======
+                    "id": 19830,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2849:4:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2140,13 +3276,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18015,
+=======
+                  "id": 19833,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18022,
                   "src": "2863:4:31",
+=======
+                  "scope": 19840,
+                  "src": "2863:4:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2154,10 +3299,17 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18014,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "2863:4:31",
+=======
+                    "id": 19832,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2863:4:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2167,13 +3319,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18017,
+=======
+                  "id": 19835,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18022,
                   "src": "2877:4:31",
+=======
+                  "scope": 19840,
+                  "src": "2877:4:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2181,10 +3342,17 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18016,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "2877:4:31",
+=======
+                    "id": 19834,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2877:4:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2194,13 +3362,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18019,
+=======
+                  "id": 19837,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18022,
                   "src": "2891:4:31",
+=======
+                  "scope": 19840,
+                  "src": "2891:4:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2208,10 +3385,17 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18018,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "2891:4:31",
+=======
+                    "id": 19836,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2891:4:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2220,6 +3404,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "2839:62:31"
             },
             "returnParameters": {
@@ -2229,11 +3414,23 @@
               "src": "2910:0:31"
             },
             "scope": 18067,
+=======
+              "src": "2839:62:43"
+            },
+            "returnParameters": {
+              "id": 19839,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2910:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 18032,
             "nodeType": "FunctionDefinition",
             "src": "3189:98:31",
@@ -2241,6 +3438,15 @@
               "id": 18023,
               "nodeType": "StructuredDocumentation",
               "src": "2917:267:31",
+=======
+            "id": 19850,
+            "nodeType": "FunctionDefinition",
+            "src": "3189:98:43",
+            "documentation": {
+              "id": 19841,
+              "nodeType": "StructuredDocumentation",
+              "src": "2917:267:43",
+>>>>>>> dev
               "text": "@notice Mocks the behavior of a contract call, setting the input and output for a function.\n @notice Calldata can either be strict or a partial match, e.g. if only passed\n a selector to the expected calldata, then the entire function will be mocked."
             },
             "functionSelector": "b96213e4",
@@ -2248,20 +3454,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "mockCall",
+<<<<<<< HEAD
             "nameLocation": "3198:8:31",
             "parameters": {
               "id": 18030,
+=======
+            "nameLocation": "3198:8:43",
+            "parameters": {
+              "id": 19848,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18025,
+=======
+                  "id": 19843,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18032,
                   "src": "3216:7:31",
+=======
+                  "scope": 19850,
+                  "src": "3216:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2269,10 +3490,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18024,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "3216:7:31",
+=======
+                    "id": 19842,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3216:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2283,13 +3511,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18027,
+=======
+                  "id": 19845,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18032,
                   "src": "3233:14:31",
+=======
+                  "scope": 19850,
+                  "src": "3233:14:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -2297,10 +3534,17 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18026,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "3233:5:31",
+=======
+                    "id": 19844,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3233:5:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -2310,13 +3554,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18029,
+=======
+                  "id": 19847,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18032,
                   "src": "3257:14:31",
+=======
+                  "scope": 19850,
+                  "src": "3257:14:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -2324,10 +3577,17 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18028,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "3257:5:31",
+=======
+                    "id": 19846,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3257:5:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -2336,6 +3596,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "3206:71:31"
             },
             "returnParameters": {
@@ -2345,11 +3606,23 @@
               "src": "3286:0:31"
             },
             "scope": 18067,
+=======
+              "src": "3206:71:43"
+            },
+            "returnParameters": {
+              "id": 19849,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3286:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 18036,
             "nodeType": "FunctionDefinition",
             "src": "3334:37:31",
@@ -2357,6 +3630,15 @@
               "id": 18033,
               "nodeType": "StructuredDocumentation",
               "src": "3293:36:31",
+=======
+            "id": 19854,
+            "nodeType": "FunctionDefinition",
+            "src": "3334:37:43",
+            "documentation": {
+              "id": 19851,
+              "nodeType": "StructuredDocumentation",
+              "src": "3293:36:43",
+>>>>>>> dev
               "text": "@notice Clears all mocked calls."
             },
             "functionSelector": "3fdf4e15",
@@ -2364,6 +3646,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "clearMockedCalls",
+<<<<<<< HEAD
             "nameLocation": "3343:16:31",
             "parameters": {
               "id": 18034,
@@ -2378,11 +3661,28 @@
               "src": "3370:0:31"
             },
             "scope": 18067,
+=======
+            "nameLocation": "3343:16:43",
+            "parameters": {
+              "id": 19852,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3359:2:43"
+            },
+            "returnParameters": {
+              "id": 19853,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3370:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 18044,
             "nodeType": "FunctionDefinition",
             "src": "3516:54:31",
@@ -2390,6 +3690,15 @@
               "id": 18037,
               "nodeType": "StructuredDocumentation",
               "src": "3377:134:31",
+=======
+            "id": 19862,
+            "nodeType": "FunctionDefinition",
+            "src": "3516:54:43",
+            "documentation": {
+              "id": 19855,
+              "nodeType": "StructuredDocumentation",
+              "src": "3377:134:43",
+>>>>>>> dev
               "text": "@notice Expect a call to an address with the specified calldata.\n @notice Calldata can either be strict or a partial match."
             },
             "functionSelector": "bd6af434",
@@ -2397,20 +3706,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "expectCall",
+<<<<<<< HEAD
             "nameLocation": "3525:10:31",
             "parameters": {
               "id": 18042,
+=======
+            "nameLocation": "3525:10:43",
+            "parameters": {
+              "id": 19860,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18039,
+=======
+                  "id": 19857,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18044,
                   "src": "3536:7:31",
+=======
+                  "scope": 19862,
+                  "src": "3536:7:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2418,10 +3742,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18038,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "3536:7:31",
+=======
+                    "id": 19856,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3536:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2432,13 +3763,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18041,
+=======
+                  "id": 19859,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18044,
                   "src": "3545:14:31",
+=======
+                  "scope": 19862,
+                  "src": "3545:14:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -2446,10 +3786,17 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18040,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "3545:5:31",
+=======
+                    "id": 19858,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3545:5:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -2458,6 +3805,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "3535:25:31"
             },
             "returnParameters": {
@@ -2467,11 +3815,23 @@
               "src": "3569:0:31"
             },
             "scope": 18067,
+=======
+              "src": "3535:25:43"
+            },
+            "returnParameters": {
+              "id": 19861,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3569:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 18052,
             "nodeType": "FunctionDefinition",
             "src": "3646:66:31",
@@ -2479,6 +3839,15 @@
               "id": 18045,
               "nodeType": "StructuredDocumentation",
               "src": "3576:65:31",
+=======
+            "id": 19870,
+            "nodeType": "FunctionDefinition",
+            "src": "3646:66:43",
+            "documentation": {
+              "id": 19863,
+              "nodeType": "StructuredDocumentation",
+              "src": "3576:65:43",
+>>>>>>> dev
               "text": "@notice Fetches the contract bytecode from its artifact file."
             },
             "functionSelector": "8d1cc925",
@@ -2486,20 +3855,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "getCode",
+<<<<<<< HEAD
             "nameLocation": "3655:7:31",
             "parameters": {
               "id": 18048,
+=======
+            "nameLocation": "3655:7:43",
+            "parameters": {
+              "id": 19866,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18047,
+=======
+                  "id": 19865,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18052,
                   "src": "3663:15:31",
+=======
+                  "scope": 19870,
+                  "src": "3663:15:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -2507,10 +3891,17 @@
                     "typeString": "string"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18046,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "3663:6:31",
+=======
+                    "id": 19864,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3663:6:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -2519,21 +3910,37 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "3662:17:31"
             },
             "returnParameters": {
               "id": 18051,
+=======
+              "src": "3662:17:43"
+            },
+            "returnParameters": {
+              "id": 19869,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18050,
+=======
+                  "id": 19868,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18052,
                   "src": "3698:12:31",
+=======
+                  "scope": 19870,
+                  "src": "3698:12:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2541,10 +3948,17 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18049,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "3698:5:31",
+=======
+                    "id": 19867,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3698:5:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -2553,14 +3967,21 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "3697:14:31"
             },
             "scope": 18067,
+=======
+              "src": "3697:14:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 18060,
             "nodeType": "FunctionDefinition",
             "src": "3767:61:31",
@@ -2568,6 +3989,15 @@
               "id": 18053,
               "nodeType": "StructuredDocumentation",
               "src": "3718:44:31",
+=======
+            "id": 19878,
+            "nodeType": "FunctionDefinition",
+            "src": "3767:61:43",
+            "documentation": {
+              "id": 19871,
+              "nodeType": "StructuredDocumentation",
+              "src": "3718:44:43",
+>>>>>>> dev
               "text": "@notice Label an address in test traces."
             },
             "functionSelector": "c657c718",
@@ -2575,13 +4005,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "label",
+<<<<<<< HEAD
             "nameLocation": "3776:5:31",
             "parameters": {
               "id": 18058,
+=======
+            "nameLocation": "3776:5:43",
+            "parameters": {
+              "id": 19876,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18055,
                   "mutability": "mutable",
                   "name": "addr",
@@ -2589,6 +4026,15 @@
                   "nodeType": "VariableDeclaration",
                   "scope": 18060,
                   "src": "3782:12:31",
+=======
+                  "id": 19873,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nameLocation": "3790:4:43",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 19878,
+                  "src": "3782:12:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2596,10 +4042,17 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18054,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "3782:7:31",
+=======
+                    "id": 19872,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3782:7:43",
+>>>>>>> dev
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2610,6 +4063,7 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18057,
                   "mutability": "mutable",
                   "name": "label",
@@ -2617,6 +4071,15 @@
                   "nodeType": "VariableDeclaration",
                   "scope": 18060,
                   "src": "3796:21:31",
+=======
+                  "id": 19875,
+                  "mutability": "mutable",
+                  "name": "label",
+                  "nameLocation": "3812:5:43",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 19878,
+                  "src": "3796:21:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -2624,10 +4087,17 @@
                     "typeString": "string"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18056,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "3796:6:31",
+=======
+                    "id": 19874,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3796:6:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -2636,6 +4106,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "3781:37:31"
             },
             "returnParameters": {
@@ -2645,11 +4116,23 @@
               "src": "3827:0:31"
             },
             "scope": 18067,
+=======
+              "src": "3781:37:43"
+            },
+            "returnParameters": {
+              "id": 19877,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3827:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
+<<<<<<< HEAD
             "id": 18066,
             "nodeType": "FunctionDefinition",
             "src": "3921:31:31",
@@ -2657,6 +4140,15 @@
               "id": 18061,
               "nodeType": "StructuredDocumentation",
               "src": "3834:82:31",
+=======
+            "id": 19884,
+            "nodeType": "FunctionDefinition",
+            "src": "3921:31:43",
+            "documentation": {
+              "id": 19879,
+              "nodeType": "StructuredDocumentation",
+              "src": "3834:82:43",
+>>>>>>> dev
               "text": "@notice When fuzzing, generate new inputs if the input conditional is not met."
             },
             "functionSelector": "4c63e562",
@@ -2664,20 +4156,35 @@
             "kind": "function",
             "modifiers": [],
             "name": "assume",
+<<<<<<< HEAD
             "nameLocation": "3930:6:31",
             "parameters": {
               "id": 18064,
+=======
+            "nameLocation": "3930:6:43",
+            "parameters": {
+              "id": 19882,
+>>>>>>> dev
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 18063,
+=======
+                  "id": 19881,
+>>>>>>> dev
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 18066,
                   "src": "3937:4:31",
+=======
+                  "scope": 19884,
+                  "src": "3937:4:43",
+>>>>>>> dev
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2685,10 +4192,17 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 18062,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "3937:4:31",
+=======
+                    "id": 19880,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3937:4:43",
+>>>>>>> dev
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2697,6 +4211,7 @@
                   "visibility": "internal"
                 }
               ],
+<<<<<<< HEAD
               "src": "3936:6:31"
             },
             "returnParameters": {
@@ -2706,6 +4221,17 @@
               "src": "3951:0:31"
             },
             "scope": 18067,
+=======
+              "src": "3936:6:43"
+            },
+            "returnParameters": {
+              "id": 19883,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3951:0:43"
+            },
+            "scope": 19885,
+>>>>>>> dev
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -2718,15 +4244,27 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
+<<<<<<< HEAD
           18067
         ],
         "name": "Hevm",
         "nameLocation": "78:4:31",
         "scope": 18068,
+=======
+          19885
+        ],
+        "name": "Hevm",
+        "nameLocation": "78:4:43",
+        "scope": 19886,
+>>>>>>> dev
         "usedErrors": []
       }
     ],
     "license": "AGPL-3.0-only"
   },
+<<<<<<< HEAD
   "id": 31
+=======
+  "id": 43
+>>>>>>> dev
 }

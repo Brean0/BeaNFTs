@@ -1,6 +1,10 @@
 {
   "compiler": {
+<<<<<<< HEAD
     "version": "0.8.10+commit.fc410830"
+=======
+    "version": "0.8.11+commit.d7f03943"
+>>>>>>> dev
   },
   "language": "Solidity",
   "output": {
@@ -30,8 +34,14 @@
       "runs": 200
     },
     "remappings": [
+<<<<<<< HEAD
       ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/",
       ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/",
+=======
+      ":ERC721A-Upgradeable/=lib/ERC721A-Upgradeable/contracts/",
+      ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/contracts/",
+      ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/contracts/",
+>>>>>>> dev
       ":ds-test/=lib/solmate/lib/ds-test/src/",
       ":forge-std/=lib/forge-std/src/",
       ":solmate/=lib/solmate/src/"

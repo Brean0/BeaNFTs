@@ -1,6 +1,10 @@
 {
   "compiler": {
+<<<<<<< HEAD
     "version": "0.8.10+commit.fc410830"
+=======
+    "version": "0.8.11+commit.d7f03943"
+>>>>>>> dev
   },
   "language": "Solidity",
   "output": {
@@ -670,8 +674,14 @@
       "runs": 200
     },
     "remappings": [
+<<<<<<< HEAD
       ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/",
       ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/",
+=======
+      ":ERC721A-Upgradeable/=lib/ERC721A-Upgradeable/contracts/",
+      ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/contracts/",
+      ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/contracts/",
+>>>>>>> dev
       ":ds-test/=lib/solmate/lib/ds-test/src/",
       ":forge-std/=lib/forge-std/src/",
       ":solmate/=lib/solmate/src/"
@@ -855,6 +865,7 @@
       ]
     },
     "src/ERC721Bean.sol": {
+<<<<<<< HEAD
       "keccak256": "0xd97998d806851ef32b0b90f7b96880e63f93ed6f0c220582647c33e3c14c5097",
       "license": "MIT",
       "urls": [
@@ -884,6 +895,37 @@
       "urls": [
         "bzz-raw://8539b4b2207fb56d1d97006f4c2389102294ed9915901bec8d0253e154518436",
         "dweb:/ipfs/QmbP2rx7ejEruNsLvB3ARt1Mk1oUtpyyDoNtjbobdMvUPg"
+=======
+      "keccak256": "0x09c0e39ca736f7073ca7d730e0336c807b3aa770e26c23dad9ded43ec76918ed",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://af4e1dae911a05ab7e19beae55413cc8662aae590555f2e75d4b7dd0a2ae6cca",
+        "dweb:/ipfs/Qme7jbUryvMqkxNXuskAk7twbgtKGfMk9BaWKBgCmkBcWC"
+      ]
+    },
+    "src/ERC721EnumerableUpgradeableOptimized.sol": {
+      "keccak256": "0x4d6d3f649329624bddfe6c48a6bb369b007d4950ef72c34e7bf62a739d1db853",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://ea369305c9ca001664282771b0c931b6f187bac4a63de0b5274b9f3477c0ed84",
+        "dweb:/ipfs/QmeypNHpCTcekS5mZEchwuc36bMYxj2reMm5wTn6V2juhx"
+      ]
+    },
+    "src/ERC721ReceiverMockUpgradeable.sol": {
+      "keccak256": "0x3bf64707e3d2aa5d2b5e9896d1e5c4854b8a1d84279247595d999b1c5646c831",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://d10d058dbb0afc363ef33da2e86f9c50b3d5318d1c03461ff1574f5e102da38b",
+        "dweb:/ipfs/QmRQbpYEfk7XDPB94r1nJWutKbYpSrFWeUXcZ2Y8diWat3"
+      ]
+    },
+    "src/ERC721UpgradeableOptimized.sol": {
+      "keccak256": "0x329a366a29b3d773f6d439e15229110121ed3231eff5915b516dc4c34e4aae9c",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://e805fcbe5410f46400d0c4069e22bd6401f96aa77c7de81f2bb5d20a84f80381",
+        "dweb:/ipfs/QmNinbgnyredQz7RD5x3tBXe5epkjW69ExJfSUs9uNXLhu"
+>>>>>>> dev
       ]
     },
     "src/IERC721ReceiverUpgradeable.sol": {
@@ -895,6 +937,7 @@
       ]
     },
     "src/UUPSProxy.sol": {
+<<<<<<< HEAD
       "keccak256": "0x4305340295597cd4ccb52eb87df07d9d94ed1141c1da0df45e28a8d92cfe3a82",
       "license": "GPL-3.0-or-later",
       "urls": [
@@ -908,6 +951,21 @@
       "urls": [
         "bzz-raw://5bfba23cf2763e8eb4f2a5f2572cfe27dee70a5d8415c9cee4c6e5b0f5f3d51c",
         "dweb:/ipfs/QmQhrG2iv9b6WrdhFoTVjj5QMg8a1ioB8W58pgR8XbNk8Q"
+=======
+      "keccak256": "0x9fd38154772f17e1ba488290e27b43538f47c8a921549d7ea3afbb0082d7c143",
+      "license": "GPL-3.0-or-later",
+      "urls": [
+        "bzz-raw://319207be8d7921379b6d24c22fbdc366433c5570a081bfa7c6dc0f4c23dc94c0",
+        "dweb:/ipfs/QmY6qJMVQhAQseiaYsVvvVMeAmqnvKauaBHrNmmMrw6sv5"
+      ]
+    },
+    "test/ERC721.t.sol": {
+      "keccak256": "0x747eee58a0f00a371f71a8490d3fd8784354c77397e9618e397fde38548e54fe",
+      "license": "AGPL-3.0-only",
+      "urls": [
+        "bzz-raw://e3eb52ebe2989854a4ec5e02966f74827fe18872c188c2cd703262e2290141ff",
+        "dweb:/ipfs/QmQEQTJPuLofiYTpvq1j5JbBA6se7WAxb7HsPTfRUynNKJ"
+>>>>>>> dev
       ]
     },
     "test/utils/DSInvariantTest.sol": {

@@ -6,8 +6,14 @@ import { HardhatUserConfig, task } from "hardhat/config";
 import "@nomiclabs/hardhat-ethers";
 import "@openzeppelin/hardhat-upgrades";
 import "@nomiclabs/hardhat-etherscan";
+<<<<<<< HEAD
 import '@nomiclabs/hardhat-truffle5';
 import "hardhat-gas-reporter";
+=======
+//import '@nomiclabs/hardhat-truffle5';
+import "hardhat-gas-reporter";
+require("dotenv").config();
+>>>>>>> dev
 
 import example from "./tasks/example";
 
@@ -23,7 +29,11 @@ task("example", "Example task").setAction(example);
 
 const config: HardhatUserConfig = {
   solidity: {
+<<<<<<< HEAD
     version: "0.8.13",
+=======
+    version: "0.8.11",
+>>>>>>> dev
     settings: {
       optimizer: {
         enabled: true,
@@ -31,6 +41,22 @@ const config: HardhatUserConfig = {
       },
     },
   },
+<<<<<<< HEAD
+=======
+  networks: {
+    goerli: {
+      url: process.env.ALCHEMY_URL,
+      accounts: [process.env.PRI_KEY!]
+    },
+    mainnet: {
+      url: process.env.MAINNET_ALCHEMY_URL,
+      accounts: [process.env.MAINNET_KEY!]
+    },
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY,
+  },
+>>>>>>> dev
   paths: {
     sources: "./src", // Use ./src rather than ./contracts as Hardhat expects
     cache: "./cache_hardhat", // Use a different cache for Hardhat than Foundry

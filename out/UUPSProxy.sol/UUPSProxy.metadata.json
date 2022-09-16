@@ -1,6 +1,10 @@
 {
   "compiler": {
+<<<<<<< HEAD
     "version": "0.8.10+commit.fc410830"
+=======
+    "version": "0.8.11+commit.d7f03943"
+>>>>>>> dev
   },
   "language": "Solidity",
   "output": {
@@ -100,8 +104,14 @@
       "runs": 200
     },
     "remappings": [
+<<<<<<< HEAD
       ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/",
       ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/",
+=======
+      ":ERC721A-Upgradeable/=lib/ERC721A-Upgradeable/contracts/",
+      ":Openzeppelin-contracts-upgradeable/=lib/Openzeppelin-contracts-upgradeable/contracts/",
+      ":Openzeppelin-contracts/=lib/Openzeppelin-contracts/contracts/",
+>>>>>>> dev
       ":ds-test/=lib/solmate/lib/ds-test/src/",
       ":forge-std/=lib/forge-std/src/",
       ":solmate/=lib/solmate/src/"
@@ -165,11 +175,19 @@
       ]
     },
     "src/UUPSProxy.sol": {
+<<<<<<< HEAD
       "keccak256": "0x4305340295597cd4ccb52eb87df07d9d94ed1141c1da0df45e28a8d92cfe3a82",
       "license": "GPL-3.0-or-later",
       "urls": [
         "bzz-raw://e596cc273c35cfa059e65efc6d29cc1e521f0b92d98d481574b8aa315c166e66",
         "dweb:/ipfs/QmQkMv6Jkx1WZjgrohvoNV36RhbNnrjcCRJyEry4gXEc4f"
+=======
+      "keccak256": "0x9fd38154772f17e1ba488290e27b43538f47c8a921549d7ea3afbb0082d7c143",
+      "license": "GPL-3.0-or-later",
+      "urls": [
+        "bzz-raw://319207be8d7921379b6d24c22fbdc366433c5570a081bfa7c6dc0f4c23dc94c0",
+        "dweb:/ipfs/QmY6qJMVQhAQseiaYsVvvVMeAmqnvKauaBHrNmmMrw6sv5"
+>>>>>>> dev
       ]
     }
   },

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+.env
+>>>>>>> dev
 # Foundry
 cache/
 out/
@@ -11,3 +15,9 @@ artifacts/
 
 #Hardhat plugin files
 typechain-types/
+<<<<<<< HEAD
+=======
+
+#determining NFT array thing:
+array-generation-python/
+>>>>>>> dev

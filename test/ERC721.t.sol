@@ -1,9 +1,17 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+<<<<<<< HEAD
 pragma solidity 0.8.10;
 //test specific libraries
 import {DSTestPlus} from "./utils/DSTestPlus.sol";
 import {DSInvariantTest} from "./utils/DSInvariantTest.sol";
 import {IERC721EnumerableUpgradeable} from "Openzeppelin-contracts-upgradeable/contracts/token/ERC721/extensions/IERC721EnumerableUpgradeable.sol";
+=======
+pragma solidity ^0.8.10;
+//test specific libraries
+import {DSTestPlus} from "./utils/DSTestPlus.sol";
+import {DSInvariantTest} from "./utils/DSInvariantTest.sol";
+import {IERC721EnumerableUpgradeable} from "Openzeppelin-contracts-upgradeable/token/ERC721/extensions/IERC721EnumerableUpgradeable.sol";
+>>>>>>> dev
 import "forge-std/console.sol";
 
 //contract examples
@@ -11,6 +19,7 @@ import {UUPSProxy} from "../src/UUPSProxy.sol";
 import {ERC721Bean} from "../src/ERC721Bean.sol";
 import {ERC721ReceiverMockUpgradeable} from "../src/ERC721ReceiverMockUpgradeable.sol";
 
+<<<<<<< HEAD
 //midway through, I realized there is no need to test the proxy, rather the implmentation instead 
 // will keep it here for examples 
 /// Merkle Tree data /// 
@@ -28,6 +37,8 @@ addresses =
 {"address":"0x03C6FcED478cBbC9a4FAB34eF9f40767739D1Ff7", "uint256[]": [8,327]  },
 ]
 */
+=======
+>>>>>>> dev
 contract ERC721Recipient is ERC721ReceiverMockUpgradeable {
     address public operator;
     address public from;
